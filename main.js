@@ -50,7 +50,7 @@ $(window).load(function(){
 
   var tour = {
     planets: ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"],
-    data: ["scale-stretched set-speed", "scale-s set-size", "scale-d set-distance", "scale-stretched set-rotation", "scale-s set-mass", "scale-d set-temperature"]
+    data: ["scale-stretched set-speed", "scale-s set-size", "scale-d set-distance", "scale-stretched set-rotation", "scale-s set-mass", "scale-d set-temperature"],
 }
   
   setInterval(function() {
@@ -61,8 +61,11 @@ $(window).load(function(){
         solarsys.removeClass().addClass(p);
         $(".planet-picker").parent().find('a').removeClass('active');
         $("." + p).addClass('active');
-        if (Math.random() < 0.1) {
+        if (Math.random() < 0.2) {
           body.toggleClass("view-3D view-2D");
+        }
+        if (Math.random() < 0.2) {
+          body.toggleClass("zoom-large zoom-close");
         }
       }
   }, 15000);
