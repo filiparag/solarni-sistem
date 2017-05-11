@@ -1,0 +1,39 @@
+/* --------------------------------------------------------------------------- images */
+
+body {
+  background-image: url('planets/stars.png'); 
+  background-repeat: repeat; }
+
+#universe {
+  background-image: url('planets/universe.png'); }
+
+#sun {
+  background-image: url('planets/sun.png'); }
+
+#mercury .planet {
+  background-image: url('planets/mercury.png'); }
+
+#venus .planet {
+  background-image: url('planets/venus.png'); }
+
+#earth .planet {
+  background-image: url('planets/earth.png'); }
+
+#earth .moon {
+  background-color: #DDD; 
+  background-image: url('planets/moon.png'); }
+
+#mars .planet {
+  background-image: url('planets/mars.png'); }
+
+#jupiter .planet {
+  background-image: url('planets/jupiter.png'); }
+
+#saturn .planet {
+  background-image: url('planets/saturn.png'); }
+
+#uranus .planet {
+  background-image: url('planets/uranus.png'); }
+
+#neptune .planet {
+   background-image: url('planets/neptune.png'); }
