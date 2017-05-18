@@ -68,6 +68,6 @@ $(window).load(function(){
           body.toggleClass("zoom-large zoom-close");
         }
       }
-  }, 15000);
+  }, 9000);
 
 });
